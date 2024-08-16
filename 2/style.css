@@ -1,0 +1,23 @@
+html, body {
+    margin: 0 0;
+}
+
+.page {
+    height: calc(100vh - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+svg {
+    width: 320px;
+    height: 240px;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#myGraph rect {
+    stroke: rgb(160, 0, 0);
+    stroke-width: 1px;
+    fill: rgb(255, 0, 0);
+}
